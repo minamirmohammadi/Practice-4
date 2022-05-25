@@ -1,0 +1,50 @@
+body{
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) !important; 
+    height: 100vh !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden !important;
+    padding-top: 18vh !important;    
+}
+.main-container{
+    margin: 0px !important;
+}
+.sub-container{
+    background-color: white;
+    border-radius: 20px;
+    height: 66vh; 
+}
+.max-height{
+    height: 100% !important;
+}
+.margin-left{
+    margin-left: -4.5vw !important;
+}
+.clo-left{
+    overflow: hidden !important;
+}
+.vomane-des{
+    width: 33vw !important;
+}
+ 
+ .ptr-desktop{ 
+    width: 30vw !important; 
+
+} 
+.box{
+    width: 13.75vw !important;
+    position: absolute !important;
+    z-index: 1 !important;
+}     
+.img-section{
+display: table !important;
+width: 100% !important;
+height: 100% !important;
+}
+.img-frame{
+    display: table-cell !important;
+    vertical-align: middle !important;
+} 
+.answer{
+    display: none !important;
+}
+
