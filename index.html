@@ -1,21 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
-  How many team members can I invite?
+
+  <div class=" row main-container col-sm-12 col-md-12 justify-content-center">
+    <div class="col-md-1 col-sm-1 margin-left"></div>
+    <div class="col-md-8 col-sm-8 sub-container">
+      <div class="row max-height">
+        <!-- <img class="box" src="images/illustration-box-desktop.svg" alt=""> -->
+        <div class="col-sm-6 col-md-6 clo-left">
+          <div class="img-section">
+            <div class="img-frame">
+              <img class="woman-desktop" src="images/illustration-woman-online-desktop.svg" alt=""> 
+            </div>
+             <!-- <img class="pte-desktop" src="images/bg-pattern-desktop.svg" alt="">   -->
+          </div>
+          <!-- <img class="woman-mobil" src="images/illustration-woman-online-mobile.svg" alt="">
+          <img class="ptr-mobile" src="images/bg-pattern-mobile.svg" alt=""> -->
+
+        </div>
+        <div class="col-sm-6 col-md-6 col-right"><br><br>
+          <h2 class="fag">FAQ</h2>
+          <div class="accardeon">
+            <div class="ask-answer">
+              <div class="ask"><small class="ask-title">How many team members can I invite?</small>
+                <img class="icon" src="images/icon-arrow-down.svg" alt="">
+              </div>
+              <div class="answer">
+                <p>You can invite up to 2 additional users on the Free plan. There is no limit on
+                  team members for the Premium plan.</p>
+              </div>
+            </div>
+            <hr>
+            <div class="ask-answer">
+              <div class="ask"><small class="ask-title"> What is the maximum file upload size?</small>
+                <img class="icon" src="images/icon-arrow-down.svg" alt="">
+              </div>
+              <div class="answer">
+                <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+              </div>
+            </div>
+            <hr>
+            <div class="ask-answer">
+              <div class="ask"><small class="ask-title"> How do I reset my password?</small>
+                <img class="icon" src="images/icon-arrow-down.svg" alt="">
+              </div>
+              <div class="answer">
+                <p> Click “Forgot password” from the login page or “Change password” from your profile page.
+                  A reset link will be emailed to you.</p>
+              </div>
+            </div>
+            <hr>
+            <div class="ask-answer">
+              <div class="ask"><small class="ask-title">Can I cancel my subscription?</small>
+                <img class="icon" src="images/icon-arrow-down.svg" alt="">
+              </div>
+              <div class="answer">
+                <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+              </div>
+            </div>
+            <hr>
+            <div class="ask-answer">
+              <div class="ask"><small class="ask-title"> Do you provide additional support?</small>
+                <img class="icon" src="images/icon-arrow-down.svg" alt="">
+              </div>
+              <div class="answer">
+                <p> Do you provide additional support?</p>
+              </div>
+            </div>
+            <hr>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- How many team members can I invite?
   You can invite up to 2 additional users on the Free plan. There is no limit on 
   team members for the Premium plan.
 
@@ -30,11 +118,18 @@
   Yes! Send us a message and we’ll process your request no questions asked.
 
   Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+c -->
 
   <div class="attribution">
-    Challenge by <a href="https://ui-warriors.github.io/About/" target="_blank">UI Warriors</a>. 
+    Challenge by <a href="https://ui-warriors.github.io/About/" target="_blank">UI Warriors</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    type="text/javascript"></script>
+  <script src="my-js.js" type="text/javascript"></script>
 </body>
+
 </html>
