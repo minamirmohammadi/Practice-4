@@ -56,8 +56,9 @@ body{
 } 
 .accardeon{
     width: 25vw !important;
-    margin-top: 4vh !important;
+    margin-top: 5vh !important;
 }
+
 .ask{
     display: flex !important;
     justify-content: space-between !important;
@@ -86,7 +87,7 @@ p{
 }
 
     
-    
+
 
 
 
@@ -115,18 +116,5 @@ p{
     
 }
 
-/* @media(max-width: 700px){
-    .answer{
-      margin-top: 2.5vh !important;
-}
-
-    .sub-container{
-        height: 85% !important;
-    }
-    body{
-        
-    }
-    
-    }  */
 
 
