@@ -3,7 +3,9 @@ body{
     height: 100vh !important;
     background-repeat: no-repeat !important;
     overflow: hidden !important;
-    padding-top: 18vh !important;    
+    padding-top: 18vh !important;  
+    /* padding-right: 6vw !important;   
+    padding-left: 4vw; */
 }
 .main-container{
     margin: 0px !important;
@@ -17,7 +19,8 @@ body{
     height: 100% !important;
 }
 .margin-left{
-    margin-left: -4.5vw !important;
+    margin-left: -4.5vw !important; 
+
 }
 .clo-left{
     overflow: hidden !important;
@@ -82,7 +85,6 @@ p{
     width: 22vw !important;
     color: hsl(240, 6%, 50%) !important;
 }
-
 
 
 
