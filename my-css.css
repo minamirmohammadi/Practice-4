@@ -64,12 +64,9 @@ body{
     cursor: pointer !important;
     align-items: center !important;
     color: hsl(237, 12%, 33%) !important;
-}
-.ask{
     height: 3vh !important; 
+}
 
-    
-} 
 .faq{
     margin-top: 4vh !important;
     color: hsl(238, 29%, 16%) !important;
@@ -88,17 +85,6 @@ p{
     color: hsl(240, 6%, 50%) !important;
 }
 
-/* @media(max-width: 700px){
-    .answer{
-      margin-top: 2.5vh !important;
-}
-
-    .sub-container{
-        height: 85% !important;
-    }
-    body{
-    
-    }  */
     
     
 
@@ -126,10 +112,19 @@ p{
       p{
           width: 80% !important;
       }
-      /* .answer{
-          margin-top: 0.3vh !important;
-      } */
+    
 }
 
+/* @media(max-width: 700px){
+    .answer{
+      margin-top: 2.5vh !important;
+}
+
+    .sub-container{
+        height: 85% !important;
+    }
+    body{
+    
+    }  */
 
 
