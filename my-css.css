@@ -22,29 +22,94 @@ body{
 .clo-left{
     overflow: hidden !important;
 }
-.vomane-des{
+.voman-des{
     width: 33vw !important;
+    margin-left: -6.5vw !important;
+    margin-top: -18vh !important;
 }
- 
- .ptr-desktop{ 
-    width: 30vw !important; 
-
-} 
+.ptr-des{
+    margin-left: -63vw !important;
+    width: 60vw !important;
+    margin-top: -29vh !important;
+}
 .box{
     width: 13.75vw !important;
     position: absolute !important;
     z-index: 1 !important;
+    margin-left: -6.5vw !important;
+    margin-top: 25vh !important;
 }     
 .img-section{
-display: table !important;
-width: 100% !important;
-height: 100% !important;
+    display: table !important;  
+    width: 100% !important;
+    height: 100% !important;
 }
 .img-frame{
     display: table-cell !important;
     vertical-align: middle !important;
-} 
+}  
 .answer{
-    display: none !important;
+    display: none;
+} 
+.accardeon{
+    /* width: 80% !important;   */
+    width: 25vw !important; 
+    margin-top: 4vh !important;
 }
+.ask{
+    display: flex !important;
+    justify-content: space-between !important;
+    cursor: pointer !important;
+    align-items: center !important;
+    color: hsl(237, 12%, 33%) !important;
+}
+.ask{
+    height: 3vh !important;
+} 
+.faq{
+    margin-top: 1vh !important;
+    color: hsl(238, 29%, 16%) !important;
+}
+.ask:hover{
+    color: hsl(14, 88%, 65%) !important;
+}
+hr{
+    color: hsl(240, 5%, 91%) !important;
+    margin-top: 2.5vh !important;
+}
+p{
+    font-size: 11px !important;
+    width: 22vw !important;
+    color: hsl(240, 6%, 50%) !important;
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+     .voman-des ,.ptr-des ,.box{
+         display: none !important;
+     }
+     .clo-left{
+         overflow: visible !important;
+     }
+     .accardeon{
+         width: 80% !important;
+     }
+     .col-right{
+         
+         display: flex !important;
+         flex-direction: column !important;
+         align-items: center !important;
+     }
+      /* .img-mobile{
+         display: inline-block !important;
+     } */
+      p{
+          width: 80% !important;
+      }
+}
+
 
