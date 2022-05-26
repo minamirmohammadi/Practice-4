@@ -55,7 +55,7 @@ body{
     display: none;
 } 
 .accardeon{
-    width: 85% !important;
+    width: 25vw !important;
     margin-top: 4vh !important;
 }
 .ask{
@@ -118,6 +118,9 @@ p{
          display: flex !important;
          flex-direction: column !important;
          align-items: center !important;
+     }
+     .accardeon{
+         width: 85% !important;
      }
       
       p{
