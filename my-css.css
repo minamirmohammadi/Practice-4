@@ -86,6 +86,15 @@ p{
     color: hsl(240, 6%, 50%) !important;
 }
 
+/* @media(max-width: 700px){
+    .sub-container{
+        height: 85% !important;
+    }
+    body{
+    
+    }
+    
+} */
 
 
 
@@ -113,5 +122,6 @@ p{
           width: 80% !important;
       }
 }
+
 
 
