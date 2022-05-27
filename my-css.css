@@ -125,19 +125,15 @@ p{
       }
 
       
-     /* .test{
+     .test{
          display: block !important; 
-     } */
-     /* .voman-mb{
-         margin-top: -10vh !important;
-         display: block !important;
-        
-     }
-     .ptr-mb{
-         display: block !important;
-     } */
+         margin-top:-31vh !important;
+     }  
      
-}
-
+     .ptr-mb{
+         margin-top: -15vh !important;
+    
+     } 
+    }
 
 
