@@ -12,7 +12,7 @@ body{
     background-color: white;
     border-radius: 20px;
     height: 66vh; 
-    overflow: scroll !important;
+    /* overflow: scroll !important;  */
 }
 .max-height{
     height: 100% !important;
@@ -23,6 +23,10 @@ body{
 }
 .clo-left{
     overflow: hidden !important;
+}
+.col-right{
+    overflow: scroll !important;
+    max-height: 100% !important;
 }
 .voman-des{
     width: 33vw !important;
@@ -85,6 +89,9 @@ p{
     width: 87% !important;
     color: hsl(240, 6%, 50%) !important;
 }
+.test{
+    display: none !important;
+} 
 
     
 
@@ -99,6 +106,9 @@ p{
      }
      .clo-left{
          overflow: visible !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important; 
      }
      .col-right{
          
@@ -107,13 +117,26 @@ p{
          align-items: center !important;
      }
      .accardion{
-         width: 85% !important;
+         width: 89% !important;
      }
       
       p{
-          width: 80% !important;
+          width: 90% !important;
       }
-    
+
+      
+     .test{
+         display: block !important; 
+     }
+     /* .voman-mb{
+         margin-top: -10vh !important;
+         display: block !important;
+        
+     }
+     .ptr-mb{
+         display: block !important;
+     } */
+     
 }
 
 
