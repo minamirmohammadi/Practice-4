@@ -127,13 +127,16 @@ p{
       
      .test{
          display: block !important; 
-         margin-top:-18vh !important;
+         margin-top:-25vh !important;
      }  
      
      .ptr-mb{
          margin-top: -10vh !important;
     
      } 
+     /* body{
+          padding-top: 25vh !important; 
+     } */
     }
 
 
