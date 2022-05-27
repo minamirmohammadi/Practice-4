@@ -105,7 +105,7 @@ p{
          display: none !important;
      }
      .clo-left{
-         overflow: visible !important;
+        overflow: visible !important;
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important; 
@@ -131,7 +131,7 @@ p{
      }  
      
      .ptr-mb{
-         margin-top: -10vh !important;
+         margin-top: -8vh !important;
     
      } 
      /* body{
