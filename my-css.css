@@ -13,8 +13,6 @@ body{
     background-color: white;
     border-radius: 20px;
     height: 66vh; 
-    /* overflow: auto !important;   */
-    
 }
 .max-height{
     height: 100% !important;
@@ -26,18 +24,14 @@ body{
 .clo-left{
     overflow: hidden !important; 
     max-height: 100% !important;
-    /* display: flex !important;
-    justify-content: center !important;
-    align-items: center !important; */
+
 }
 .col-right{
     overflow: scroll !important;
     max-height: 100% !important;
-    /* overflow-y: hidden!important;   */
-    /* overflow: hidden !important;   */
-     overflow-x: hidden !important;  
-    
-
+}
+.col-right::-webkit-scrollbar{
+    display: none !important;
 }
 .voman-des{
     width: 33vw !important;
