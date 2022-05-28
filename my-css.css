@@ -12,6 +12,7 @@ body{
     background-color: white;
     border-radius: 20px;
     height: 66vh; 
+    overflow: auto !important;
 }
 .max-height{
     height: 100% !important;
@@ -27,6 +28,9 @@ body{
 .col-right{
     overflow: scroll !important;
     max-height: 100% !important;
+    /* scrollbar-width: none !important; */
+    overflow: auto !important;
+
 }
 .voman-des{
     width: 33vw !important;
