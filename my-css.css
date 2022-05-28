@@ -7,12 +7,14 @@ body{
 }
 .main-container{
     margin: 0px !important;
+    
 }
 .sub-container{
     background-color: white;
     border-radius: 20px;
     height: 66vh; 
-    overflow: auto !important;  
+    /* overflow: auto !important;   */
+    
 }
 .max-height{
     height: 100% !important;
@@ -22,8 +24,11 @@ body{
 
 }
 .clo-left{
-    overflow: hidden !important;
+    overflow: hidden !important; 
     max-height: 100% !important;
+    /* display: flex !important;
+    justify-content: center !important;
+    align-items: center !important; */
 }
 .col-right{
     overflow: scroll !important;
@@ -31,17 +36,18 @@ body{
     /* overflow-y: hidden!important;   */
     /* overflow: hidden !important;   */
      overflow-x: hidden !important;  
+    
 
 }
 .voman-des{
     width: 33vw !important;
-    margin-left: -6.5vw !important;
-    margin-top: -18vh !important;
+    margin-left: -6.5vw !important; 
+    margin-top: -18vh !important; 
 }
 .ptr-des{
-    margin-left: -63vw !important;
+    margin-left: -63vw !important; 
     width: 60vw !important;
-    margin-top: -29vh !important;
+    margin-top: -29vh !important; 
 }
 .box{
     width: 13.75vw !important;
@@ -51,17 +57,18 @@ body{
     margin-top: 25vh !important;
 }     
 .img-section{
-    display: table !important;  
+    display: table !important;   
     width: 100% !important;
     height: 100% !important;
 }
 .img-frame{
     display: table-cell !important;
-    vertical-align: middle !important;
+    vertical-align: middle !important; 
+
 }  
 .img-frame-2{
     display: table-cell !important;
-    vertical-align: middle !important;
+    vertical-align: middle !important; 
 }  
 .answer{
     display: none;
