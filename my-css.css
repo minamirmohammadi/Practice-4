@@ -13,7 +13,6 @@ body{
     border-radius: 20px;
     height: 66vh; 
     overflow: auto !important;  
-
 }
 .max-height{
     height: 100% !important;
@@ -74,8 +73,7 @@ body{
 }
 .faq{
     margin-top: 4vh !important;
-    color: hsl(238, 29%, 16%) !important;
-    
+    color: hsl(238, 29%, 16%) !important;   
 }
 
 .ask{
