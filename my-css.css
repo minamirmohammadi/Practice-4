@@ -61,6 +61,11 @@ body{
     margin-top: 5vh !important;
 
 }
+.faq{
+    margin-top: 4vh !important;
+    color: hsl(238, 29%, 16%) !important;
+    
+}
 
 .ask{
     display: flex !important;
@@ -72,14 +77,10 @@ body{
     margin-bottom: 1.5vh !important;
 }
 
-.faq{
-    margin-top: 4vh !important;
-    color: hsl(238, 29%, 16%) !important;
-    
-}
 .ask:hover{
     color: hsl(14, 88%, 65%) !important;
 }
+
 hr{
     color: hsl(240, 5%, 91%) !important;
     
@@ -91,7 +92,9 @@ p{
 }
 .test{
     display: none !important;
-} 
+}
+
+
 
     
 
@@ -131,7 +134,7 @@ p{
      }  
      
      .ptr-mb{
-         margin-top: -7vh !important;
+         margin-top: -10vh !important;
     
      } 
      body{
