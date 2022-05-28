@@ -112,6 +112,9 @@ p{
      .voman-des ,.ptr-des ,.box{
          display: none !important;
      }
+     .sub-container{
+         overflow: visible !important;
+     }
      .clo-left{
         overflow: visible !important;
         display: flex !important;
@@ -123,6 +126,7 @@ p{
          display: flex !important;
          flex-direction: column !important;
          align-items: center !important;
+         
      }
      .accardion{
          width: 89% !important;
