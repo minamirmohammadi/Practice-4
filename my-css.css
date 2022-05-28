@@ -12,7 +12,8 @@ body{
     background-color: white;
     border-radius: 20px;
     height: 66vh; 
-    overflow: auto !important;
+    overflow: auto !important;  
+
 }
 .max-height{
     height: 100% !important;
@@ -28,8 +29,9 @@ body{
 .col-right{
     overflow: scroll !important;
     max-height: 100% !important;
-    /* scrollbar-width: none !important; */
-    overflow: auto !important;
+    /* overflow-y: hidden!important;   */
+    /* overflow: hidden !important;   */
+     overflow-x: hidden !important;  
 
 }
 .voman-des{
@@ -55,6 +57,10 @@ body{
     height: 100% !important;
 }
 .img-frame{
+    display: table-cell !important;
+    vertical-align: middle !important;
+}  
+.img-frame-2{
     display: table-cell !important;
     vertical-align: middle !important;
 }  
