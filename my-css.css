@@ -36,14 +36,14 @@ body{
 .voman-des{
     width: 33vw !important;
     margin-left: -6.5vw !important; 
-    /* margin-top: -18vh !important;  */
+    /* margin-top: -18vh !important;   */
 }
 .ptr-des{
     margin-left: -63vw !important; 
     width: 60vw !important;
-    margin-top: -29vh !important;  
+    /* margin-top: -29vh !important;   */
     margin-top: -60vh !important; 
-    position: absolute !important;
+    position: absolute !important;  
 }
 .box{
     width: 13.75vw !important;
