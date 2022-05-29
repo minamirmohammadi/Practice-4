@@ -70,11 +70,11 @@ body{
 } 
 .accardion{
     width: 25vw !important;
-    margin-top: 5vh !important;
+    margin-top: 5vh !important; 
 
 }
 .faq{
-    margin-top: 4vh !important;
+    margin-top: 7vh !important; 
     color: hsl(238, 29%, 16%) !important;   
 }
 
