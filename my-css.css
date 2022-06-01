@@ -42,16 +42,16 @@ body{
     margin-left: -63vw !important; 
     width: 60vw !important;
     margin-top: -29vh !important;   
-    /* margin-top: -60vh !important; 
-    position: absolute !important;   */
+    /* margin-top: -60vh !important;  */
+    /* position: absolute !important;    */
 }
 .box{
     width: 13.75vw !important;
     position: absolute !important;
     z-index: 1 !important;
     margin-left: -6.5vw !important;
-    /* margin-top: 26.5vh !important; */
-    margin-top: 25vh !important;
+    /* margin-top: 26.5vh !important;  */
+    margin-top: 25vh !important; 
 }     
 .img-section{
     display: table !important;   
@@ -104,6 +104,15 @@ p{
 }
 .test{
     display: none !important;
+}
+
+.active img{
+    transform: rotate(180deg) !important;
+
+}
+.active small{
+    font-weight: bold !important;
+    color: black !important;
 }
 
 
