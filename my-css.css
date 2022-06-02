@@ -91,6 +91,7 @@ body{
 
 .ask:hover{
     color: hsl(14, 88%, 65%) !important;
+    transition: 0.2s !important;
 }
 
 hr{
@@ -108,7 +109,7 @@ p{
 
 .active img{
     transform: rotate(180deg) !important;
-
+    transition: 0.3s !important;
 }
 .active small{
     font-weight: bold !important;
