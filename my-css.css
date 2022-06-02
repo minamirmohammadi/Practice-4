@@ -152,14 +152,15 @@ p{
      .test{
          display: block !important; 
          margin-top:-24vh !important;
+         margin-bottom: 3vh !important;
      }  
      
      .ptr-mb{
          margin-top: -10vh !important;
-         margin-bottom: 3vh !important;
+    
      } 
      body{
-          padding-top: 22vh !important; 
+          padding-top: 20vh !important; 
      } 
      .faq{
         margin-bottom: -1vh !important;
