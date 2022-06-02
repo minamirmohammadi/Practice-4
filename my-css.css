@@ -77,6 +77,7 @@ body{
 .faq{
     margin-top: 7vh !important; 
     color: hsl(238, 29%, 16%) !important;   
+    font-family: my-font;
 }
 
 .ask{
@@ -114,6 +115,11 @@ p{
 .active small{
     font-weight: bold !important;
     color: black !important;
+}
+@font-face {
+    font-family: my-font;
+    src: url(my-font/KumbhSans-Bold.ttf);
+    format("woff");
 }
 
 
