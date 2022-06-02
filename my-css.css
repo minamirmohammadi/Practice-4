@@ -147,7 +147,7 @@ p{
         
      .test{
          display: block !important; 
-         margin-top:-25vh !important;
+         margin-top:-24vh !important;
      }  
      
      .ptr-mb{
@@ -157,6 +157,9 @@ p{
      body{
           padding-top: 22vh !important; 
      } 
+     .faq{
+        margin-bottom: -1vh !important;
+     }
     }
 
 
