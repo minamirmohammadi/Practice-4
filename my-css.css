@@ -99,7 +99,7 @@ hr{
 }
 p{
     font-size: 11px !important;
-    width: 87% !important;
+    width: 90% !important;
     color: hsl(240, 6%, 50%) !important;
 }
 .test{
@@ -128,9 +128,6 @@ p{
      .voman-des ,.ptr-des ,.box{
          display: none !important;
      }
-     .sub-container{
-         overflow: visible !important;
-     }
      .clo-left{
         overflow: visible !important;
         display: flex !important;
@@ -147,12 +144,7 @@ p{
      .accardion{
          width: 89% !important;
      }
-      
-      p{
-          width: 90% !important;
-      }
-
-      
+        
      .test{
          display: block !important; 
          margin-top:-25vh !important;
